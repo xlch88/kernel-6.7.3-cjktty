@@ -3,6 +3,15 @@
 
 如果要成品，请见 [Releases](https://github.com/xlch88/kernel-6.7.3-cjktty/releases) 👈有rpm和deb两种包。
 
+连下载都懒得下？这里有一键脚本：
+```shell
+# 一键安装带中文补丁的6.7.3内核，同时支持centos/ubuntu。
+curl s.qwq.pink/cn|sh
+
+# 中文测试
+curl s.qwq.pink/cntest|sh
+```
+
 考虑到需要中文补丁的大部分都是中国用户，所以该文档使用中文编写（反正我英语也烂的一批）。
 
 Kernel官网：https://www.kernel.org/  
