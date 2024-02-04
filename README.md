@@ -5,6 +5,9 @@
 
 考虑到需要中文补丁的大部分都是中国用户，所以该文档使用中文编写（反正我英语也烂的一批）。
 
+Kernel官网：https://www.kernel.org/  
+补丁链接：https://github.com/zhmars/cjktty-patches
+
 # 自己动手
 好的，如果你愿意自己尝试编译一个内核或者像我一样想掌握一门新的技能，那么就请往下看。
 
@@ -38,7 +41,7 @@ scl enable devtoolset-7 bash
 echo ". /opt/rh/devtoolset-7/enable" >>/etc/profile
 ```
 
-解决git版本太久的问题
+解决git版本太旧的问题
 ```shell
 git --version
 yum remove git
